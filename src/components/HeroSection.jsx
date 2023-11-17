@@ -1,5 +1,7 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
+import { TypeAnimation } from 'react-type-animation'
 
 const HeroSection = () => {
     return (
@@ -7,9 +9,28 @@ const HeroSection = () => {
             <div className='grid grid-cols-1 sm:grid-cols-12'>
                 <div className='col-span-7 place-self-center text-center sm:text-left'>
                     <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold'>
-                        <span className='text-transparent bg-clip-text bg-gradient-to-r from-orange-200 to-pink-400'>
+                        <span className='text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-orange-200'>
                             Hello, I'm{''}
                         </span>
+                        <br></br>
+                        <div style={{ paddingTop: '5px' }}>
+                            <TypeAnimation
+                                sequence={[
+                                    'Borim',
+                                    1000,
+                                    'Web Developer',
+                                    1000,
+                                    'Mobile Developer',
+                                    1000,
+                                    'UI/UX Designer',
+                                    1000
+                                ]}
+                                wrapper="span"
+                                speed={50}
+                                //style={{ fontSize: '2em', display: 'inline-block' }}
+                                repeat={Infinity}
+                            />
+                        </div>
                     </h1>
                     <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
                         Hello! I'm Borim, a passionate Computer Science major from Korea, currently on my final year at the University of Auckland in New Zealand. My journey through the realms of technology has equipped me with a robust foundation in programming, and a keen interest in developing solutions that bridge the gap between complex code and user-friendly experiences. As I navigate the final semester of my degree, I'm eager to translate my academic learnings into innovative projects that resonate with the pulse of the industry. Welcome to my portfolio – a digital tapestry of my skills, projects, and the continuous pursuit of technological excellence.
