@@ -1,11 +1,13 @@
 'use client'
 import React, { useTransition, useState } from 'react'
 import Image from 'next/image'
+import TabButton from './TabButton'
 
 const AboutSection = () => {
     const [tab, setTab] = useState('skills');
     const [isPending, startTransition] = useTransition();
 
+    // Update state without blocking the UI
     const handleTabChange = (id) => {
         startTransition(() => {
             setTab(id);
@@ -28,11 +30,27 @@ const AboutSection = () => {
                         I am a team player and I am excited to work wih others to create amazing applications.
                     </p>
                     <div className='flex flex-row mt-8'>
-                        <span className='mr-3 font-semibold hover:text-white text-[#ADB7BE] border-b border-pink-400'>
-                            Skills
-                        </span>
-                        <span>Education</span>
-                        <span>Experience</span>
+                        <TabButton
+                            selectTab={() => handleTabChange("skills")}
+                            active={tab === "skills"}
+                        >
+                            {" "}
+                            Skills{" "}
+                        </TabButton>
+                        <TabButton
+                            selectTab={() => handleTabChange("education")}
+                            active={tab === "education"}
+                        >
+                            {" "}
+                            Education{" "}
+                        </TabButton>
+                        <TabButton
+                            selectTab={() => handleTabChange("experience")}
+                            active={tab === "experience"}
+                        >
+                            {" "}
+                            Experience{" "}
+                        </TabButton>
                     </div>
                 </div>
             </div>
