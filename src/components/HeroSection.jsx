@@ -33,7 +33,9 @@ const HeroSection = () => {
                         </div>
                     </h1>
                     <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-                        Hello! I'm Borim, a passionate Computer Science major from Korea, currently on my final year at the University of Auckland in New Zealand. My journey through the realms of technology has equipped me with a robust foundation in programming, and a keen interest in developing solutions that bridge the gap between complex code and user-friendly experiences. As I navigate the final semester of my degree, I'm eager to translate my academic learnings into innovative projects that resonate with the pulse of the industry. Welcome to my portfolio – a digital tapestry of my skills, projects, and the continuous pursuit of technological excellence.
+                        Hello! I'm Borim, a passionate Computer Science major from Korea, currently on my final year at the University of Auckland in New Zealand. 
+                        My journey through the realms of technology has equipped me with a robust foundation in programming, and a keen interest in developing solutions that bridge the gap between complex code and user-friendly experiences. 
+                        As I navigate the final semester of my degree, I'm eager to translate my academic learnings into innovative projects that resonate with the pulse of the industry.
                     </p>
                     <div>
                         <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white'>Hire Me</button>
