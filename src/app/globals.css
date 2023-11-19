@@ -25,3 +25,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.intro-gradient {
+  background: rgb(168, 85, 247);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}

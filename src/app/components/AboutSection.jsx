@@ -64,10 +64,10 @@ const AboutSection = () => {
                     <h2 className='text-3xl sm:text-4xl font-bold text-white mb-4'>
                         About Me 
                     </h2>
-                    <h3 className='text-[#ADB7BE] text-xl sm:text-2xl mb-4 lg:text-3xl font-extrabold'>
+                    <h3 className='text-purple-400 text-xl sm:text-2xl mb-4 lg:text-3xl font-extrabold'>
                         I'm Borim, nice to meet you.
                     </h3>
-                    <p className='text-base lg:text-lg'>
+                    <p className='text-base lg:text-lg text-[#ADB7BE]'>
                         I am in my final year of BSc Computer Science at The University of Auckland, New Zealand.
                         Currently, my interests lie in software development and security, with some data science on the side.
                         I'm committed to learning as much as I can and developing high-quality, functional software.

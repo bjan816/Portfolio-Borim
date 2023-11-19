@@ -58,7 +58,7 @@ return (
         <h2 className='text-center text-3xl sm:text-4xl font-bold text-white mt-4 mb-4'>
             Work
         </h2>
-        <h3 className='text-[#ADB7BE] text-base md:text-xl mb-2 md:mb-4 font-semibold'>
+        <h3 className='text-[#ADB7BE] text-center text-base lg:text-lg mb-2 md:mb-4 '>
             Here is a small collection of some of my recent work.
             I am constantly working on new projects, where I will update this section accordingly.
         </h3>
