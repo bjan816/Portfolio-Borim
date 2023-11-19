@@ -5,11 +5,11 @@ import { TypeAnimation } from 'react-type-animation'
 
 const HeroSection = () => {
     return (
-        <section>
+        <section id='home'>
             <div className='grid grid-cols-1 sm:grid-cols-12'>
                 <div className='col-span-7 place-self-center text-center sm:text-left'>
                     <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-7xl lg:leading-normal font-extrabold'>
-                        <span className='text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-400'>
+                        <span className='text-transparent bg-clip-text bg-gradient-to-l from-blue-400 to-purple-400'>
                             Hi, I'm{''}
                         </span>
                         <div style={{ paddingTop: '5px' }}>
@@ -36,8 +36,8 @@ const HeroSection = () => {
                         Always on a mission to learn and develop technically and personally. Passionate about making a positive difference to the world through technology.
                     </p>
                     <div>
-                        <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 to-purple-500 hover:bg-slate-200 text-white'>View Work</button>
-                        <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 to-purple-500 hover:bg-slate-800 text-white mt-3'>
+                        <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-purple-500 to-blue-500 hover:scale-105 duration-500 text-white'>View Work</button>
+                        <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-purple-500 to-blue-500 hover:bg-slate-800 hover:scale-105 duration-500 text-white mt-3'>
                             <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span>
                         </button>
                     </div>
