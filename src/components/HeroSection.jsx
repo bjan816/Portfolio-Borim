@@ -30,9 +30,9 @@ const HeroSection = () => {
                             />
                         </div>
                     </h1>
-                    <h3 className='text-[#ADB7BE] text-3xl sm:text-4xl mb-6 lg:text-5xl font-extrabold'>
+                    <h2 className='text-[#ADB7BE] text-3xl sm:text-4xl mb-4 font-extrabold'>
                         Computer Science Major
-                    </h3>
+                    </h2>
                     <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
                         Always on a mission to learn and develop technically and personally. Passionate about making a positive difference to the world through technology.
                     </p>
@@ -46,11 +46,11 @@ const HeroSection = () => {
                 <div className='col-span-5 place-self-center mt-4 lg:mt-0 ml-5'>
                     <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative'>
                         <Image
-                            src='/images/hero-image.png'
+                            src='/images/4.png'
                             alt='Hero image'
                             className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
-                            width={400}
-                            height={400}
+                            width={300}
+                            height={300}
                         />
                     </div>
                 </div>

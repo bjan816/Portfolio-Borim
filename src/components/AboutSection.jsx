@@ -59,16 +59,17 @@ const AboutSection = () => {
     return (
         <section className='text-white'>
             <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 xl:gap-16 sm:py-16 xl:px-16'>
-                <Image src='/images/about-image.png' width={500} height={500} alt='About me image'/>
+                <Image src='/images/about-image.png' width={500} height={500} alt='About me image' />
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
-                    <h2 className='text-4xl font-bold text-white mb-4'>
-                        About Me
+                    <h2 className='text-3xl sm:text-4xl font-bold text-white mb-4'>
+                        About Me 
                     </h2>
-                    <p className='text-base lg:text-lg'>
+                    <h3 className='text-[#ADB7BE] text-xl sm:text-2xl mb-4 lg:text-3xl font-extrabold'>
                         I'm Borim, nice to meet you.
-                        <br></br>
-                        I am in my final year of BSc Computer Science at The University of Auckland, New Zealand. 
-                        Currently, my interests lie in software development and security, with some data science on the side. 
+                    </h3>
+                    <p className='text-base lg:text-lg'>
+                        I am in my final year of BSc Computer Science at The University of Auckland, New Zealand.
+                        Currently, my interests lie in software development and security, with some data science on the side.
                         I'm committed to learning as much as I can and developing high-quality, functional software.
                     </p>
                     {/*<div className='flex flex-row mt-8'>
