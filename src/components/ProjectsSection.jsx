@@ -1,5 +1,7 @@
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 import ProjectCard from './ProjectCard'
+import ProjectTag from './ProjectTag'
 
 const projectsData = [
     {
@@ -41,12 +43,36 @@ const projectsData = [
 ]
 
 const ProjectsSection = () => {
+    const [tag, setTag] = useState("All");
+
+    const handleTabChange = (newTag) => {
+        setTag(newTag);
+    };
+
     return (
-        <div>
-            <h2>
-                My Projects
+        <section id='work'>
+            <h2 className='text-center text-3xl sm:text-4xl font-bold text-white mt-4 mb-4'>
+                Work
             </h2>
-            <div>
+            <h3 className='text-[#ADB7BE] text-base md:text-xl mb-2 md:mb-4 font-semibold'>
+                Here is a small collection of some of my recent work.
+                I am constantly working on new projects, where I will update this section accordingly.
+            </h3>
+            <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
+                <ProjectTag
+                    onClick={handleTabChange}
+                    name="All"
+                    isSelected={tag === 'All'} />
+                <ProjectTag
+                    onClick={handleTabChange}
+                    name="Web"
+                    isSelected={tag === 'Web'} />
+                <ProjectTag
+                    onClick={handleTabChange}
+                    name="Game"
+                    isSelected={tag === 'Game'} />
+            </div>
+            <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
                 {projectsData.map((project) => (
                     <ProjectCard
                         key={project.id}
@@ -58,7 +84,7 @@ const ProjectsSection = () => {
                     />
                 ))}
             </div>
-        </div>
+        </section>
     )
 }
 
