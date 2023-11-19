@@ -49,43 +49,47 @@ const ProjectsSection = () => {
         setTag(newTag);
     };
 
-    return (
-        <section id='work'>
-            <h2 className='text-center text-3xl sm:text-4xl font-bold text-white mt-4 mb-4'>
-                Work
-            </h2>
-            <h3 className='text-[#ADB7BE] text-base md:text-xl mb-2 md:mb-4 font-semibold'>
-                Here is a small collection of some of my recent work.
-                I am constantly working on new projects, where I will update this section accordingly.
-            </h3>
-            <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
-                <ProjectTag
-                    onClick={handleTabChange}
-                    name="All"
-                    isSelected={tag === 'All'} />
-                <ProjectTag
-                    onClick={handleTabChange}
-                    name="Web"
-                    isSelected={tag === 'Web'} />
-                <ProjectTag
-                    onClick={handleTabChange}
-                    name="Game"
-                    isSelected={tag === 'Game'} />
-            </div>
-            <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
-                {projectsData.map((project) => (
-                    <ProjectCard
-                        key={project.id}
-                        imgUrl={project.image}
-                        title={project.title}
-                        description={project.description}
-                        gitUrl={project.gitUrl}
-                        previewUrl={project.previewUrl}
-                    />
-                ))}
-            </div>
-        </section>
-    )
+    const filteredProjects = projectsData.filter((project) =>
+        project.tag.includes(tag)
+    );
+
+return (
+    <section id='work'>
+        <h2 className='text-center text-3xl sm:text-4xl font-bold text-white mt-4 mb-4'>
+            Work
+        </h2>
+        <h3 className='text-[#ADB7BE] text-base md:text-xl mb-2 md:mb-4 font-semibold'>
+            Here is a small collection of some of my recent work.
+            I am constantly working on new projects, where I will update this section accordingly.
+        </h3>
+        <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
+            <ProjectTag
+                onClick={handleTabChange}
+                name="All"
+                isSelected={tag === 'All'} />
+            <ProjectTag
+                onClick={handleTabChange}
+                name="Web"
+                isSelected={tag === 'Web'} />
+            <ProjectTag
+                onClick={handleTabChange}
+                name="Game"
+                isSelected={tag === 'Game'} />
+        </div>
+        <div className='grid md:grid-cols-3 gap-8 md:gap-12'>
+            {filteredProjects.map((project) => (
+                <ProjectCard
+                    key={project.id}
+                    imgUrl={project.image}
+                    title={project.title}
+                    description={project.description}
+                    gitUrl={project.gitUrl}
+                    previewUrl={project.previewUrl}
+                />
+            ))}
+        </div>
+    </section>
+)
 }
 
 export default ProjectsSection
