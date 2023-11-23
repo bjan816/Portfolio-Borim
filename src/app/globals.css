@@ -41,7 +41,7 @@ body {
 }
 
 .intro-gradient {
-  background: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  background: linear-gradient(to bottom right, #9796f0, #fce9ee);
   background-clip: text;
   color: transparent;
   -webkit-background-clip: text;

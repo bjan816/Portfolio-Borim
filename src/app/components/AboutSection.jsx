@@ -58,22 +58,22 @@ const AboutSection = () => {
     }
 
     return (
-        <section className='text-gray-200 lg:py-16' id='about'>
+        <section className='text-gray-200 sm:py-10 lg:py-20' id='about'>
             <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 xl:gap-16 sm:py-16 xl:px-16'>
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}>
-                    <Image src='/images/12.png' width={500} height={500} alt='About me image' />
+                    <Image src='/images/34.png' width={500} height={500} alt='About me image' />
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }} className='mt-4 md:mt-0 text-left flex flex-col'>
-                    <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold text-gray-200 mb-4'>
+                    <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold text-gray-200 mb-6'>
                         About Me
                     </h2>
-                    <h3 className='text-purple-400 text-xl sm:text-2xl mb-4 lg:text-3xl font-extrabold'>
+                    <h3 className='text-purple-400 text-xl sm:text-2xl mb-2 lg:text-3xl font-extrabold'>
                         I'm Borim, nice to meet you.
                     </h3>
                     <p className='text-base lg:text-lg text-[#ADB7BE]'>

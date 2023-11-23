@@ -53,15 +53,16 @@ const ProjectsSection = () => {
     };
 
     return (
-        <section id='work' className='lg:py-16'>
+        <section id='work' className='sm:py-10 lg:py-20'>
             <h2 className='text-center text-3xl sm:text-4xl md:text-5xl font-bold text-gray-200 mt-4 mb-6'>
                 Work
             </h2>
             <h3 className='text-[#ADB7BE] text-center text-base lg:text-lg'>
                 Here is a small collection of some of my recent work.
+                <br></br>
                 I am constantly working on new projects, where I will update this section accordingly.
             </h3>
-            <div className='text-gray-200 flex flex-row justify-center items-center gap-2 py-6'>
+            <div className='text-gray-200 flex flex-row justify-center items-center gap-2 py-8'>
                 <ProjectTag
                     onClick={handleTabChange}
                     name="All"
