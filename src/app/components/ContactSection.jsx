@@ -19,7 +19,7 @@ const ContactSection = () => {
             className='grid md:grid-cols-2 my-12 md:my-12 py-24 gap-4'
         >
             <div>
-                <h5 className='text-3xl sm:text-4xl font-bold text-white mb-4'>
+                <h5 className='text-3xl sm:text-4xl md:text-5xl font-bold text-gray-200 mb-4'>
                     Contact
                 </h5>
                 <p className='text-[#ADB7BE] text-base lg:text-lg mb-4 max-w-md'>
@@ -37,7 +37,7 @@ const ContactSection = () => {
             <div>
                 <form className='flex flex-col' action="https://getform.io/f/30307525-5c5d-47d2-b7da-8db1fbdf1cc8" method="POST" onSubmit={handleSubmit}>
                     <div className="mb-6">
-                        <label htmlFor='name' className='text-white block mb-2 text-sm sm:text-base font-medium'>
+                        <label htmlFor='name' className='text-gray-200 block mb-2 text-sm sm:text-base font-medium'>
                             Name
                         </label>
                         <input
@@ -50,7 +50,7 @@ const ContactSection = () => {
                         />
                     </div>
                     <div className="mb-6">
-                        <label htmlFor='email' className='text-white block mb-2 text-sm sm:text-base font-medium'>
+                        <label htmlFor='email' className='text-gray-200 block mb-2 text-sm sm:text-base font-medium'>
                             Email
                         </label>
                         <input
@@ -63,7 +63,7 @@ const ContactSection = () => {
                         />
                     </div>
                     <div className="mb-6">
-                        <label htmlFor='message' className='text-white block mb-2 text-sm sm:text-base font-medium'>
+                        <label htmlFor='message' className='text-gray-200 block mb-2 text-sm sm:text-base font-medium'>
                             Message
                         </label>
                         <textarea
@@ -76,7 +76,7 @@ const ContactSection = () => {
                     </div>
                     <button
                         type='submit'
-                        className='bg-purple-500 hover:bg-purple-400 text-white font-medium py-2.5 px-5 rounded-lg w-full'>
+                        className='bg-purple-500 hover:bg-purple-400 text-gray-200 font-medium py-2.5 px-5 rounded-lg w-full'>
                         Send Message
                     </button>
                     {

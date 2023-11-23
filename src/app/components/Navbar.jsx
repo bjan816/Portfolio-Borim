@@ -15,6 +15,10 @@ const navLinks = [
         path: '#about'
     },
     {
+        title: 'Skills',
+        path: '#skills'
+    },
+    {
         title: 'Work',
         path: '#work'
     },
@@ -36,11 +40,11 @@ const Navbar = () => {
                 <div className='mobile-menu block md:hidden'>
                     {
                         !navbarOpen ? (
-                            <button onClick={() => setNavbarOpen(true)} className='flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white'>
+                            <button onClick={() => setNavbarOpen(true)} className='flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-gray-200 hover:border-gray-200'>
                                 <Bars3Icon className='h-5 w-5'/>
                             </button>
                         ) : (
-                            <button onClick={() => setNavbarOpen(false)} className='flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white'>
+                            <button onClick={() => setNavbarOpen(false)} className='flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-gray-200 hover:border-gray-200'>
                                 <XMarkIcon className='h-5 w-5'/>
                             </button>
                         )
