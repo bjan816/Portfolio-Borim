@@ -74,12 +74,12 @@ const AboutSection = () => {
                         About Me
                     </h2>
                     <h3 className='text-purple-400 text-xl sm:text-2xl mb-2 lg:text-3xl font-extrabold'>
-                        I'm Borim, nice to meet you.
+                        I&apos;m Borim, nice to meet you.
                     </h3>
                     <p className='text-base lg:text-lg text-[#ADB7BE]'>
                         I am in my final year of BSc Computer Science at The University of Auckland, New Zealand.
                         Currently, my interests lie in software development and security, with some data science on the side.
-                        I'm committed to learning as much as I can and developing high-quality, functional software.
+                        I&apos;m committed to learning as much as I can and developing high-quality, functional software.
                     </p>
                     {/*<div className='flex flex-row mt-8'>
                         <TabButton
