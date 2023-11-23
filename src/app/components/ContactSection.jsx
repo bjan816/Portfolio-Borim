@@ -26,10 +26,10 @@ const ContactSection = () => {
                     If you would like to contact me, please fill out the form.
                 </p>
                 <div className='socials flex flex-row gap-2'>
-                    <Link href='https://github.com/bjan816'>
+                    <Link href='https://github.com/bjan816' className='hover:scale-110 duration-300'>
                         <Image src={GithubIcon} alt='Github Icon' />
                     </Link>
-                    <Link href='https://github.com/bjan816'>
+                    <Link href='https://github.com/bjan816' className='hover:scale-110 duration-300'>
                         <Image src={LinkedinIcon} alt='Linkedin Icon' />
                     </Link>
                 </div>
@@ -37,7 +37,7 @@ const ContactSection = () => {
             <div>
                 <form className='flex flex-col' action="https://getform.io/f/30307525-5c5d-47d2-b7da-8db1fbdf1cc8" method="POST" onSubmit={handleSubmit}>
                     <div className="mb-6">
-                        <label htmlFor='name' className='text-white block mb-2 text-sm font-medium'>
+                        <label htmlFor='name' className='text-white block mb-2 text-sm sm:text-base font-medium'>
                             Name
                         </label>
                         <input
@@ -50,7 +50,7 @@ const ContactSection = () => {
                         />
                     </div>
                     <div className="mb-6">
-                        <label htmlFor='email' className='text-white block mb-2 text-sm font-medium'>
+                        <label htmlFor='email' className='text-white block mb-2 text-sm sm:text-base font-medium'>
                             Email
                         </label>
                         <input
@@ -63,7 +63,7 @@ const ContactSection = () => {
                         />
                     </div>
                     <div className="mb-6">
-                        <label htmlFor='message' className='text-white block mb-2 text-sm font-medium'>
+                        <label htmlFor='message' className='text-white block mb-2 text-sm sm:text-base font-medium'>
                             Message
                         </label>
                         <textarea
