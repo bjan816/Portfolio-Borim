@@ -21,7 +21,7 @@ const HeroSection = () => {
                             {/* className='text-transparent bg-clip-text bg-gradient-to-br from-purple-500 via-purple-500 to-purple-500' */}
                             Hi, I'm{''}
                         </span>
-                        <div className='intro-gradient' style={{ paddingTop: '5px' }}>
+                        <div className='intro-rgb' style={{ paddingTop: '5px' }}>
                             <TypeAnimation
                                 sequence={[
                                     'Borim Jang',
@@ -54,8 +54,8 @@ const HeroSection = () => {
                             </button>
                         </ScrollLink>
                         <ScrollLink to="contact" smooth={true} duration={500} className='inline-block'>
-                            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-purple-400 hover:border-purple-400">
-                                Contact Me
+                            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center  hover:bg-purple-400 hover:border-purple-400">
+                                Download CV
                             </button>
                         </ScrollLink>
                         {/*<Link

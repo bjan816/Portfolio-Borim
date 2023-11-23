@@ -26,8 +26,22 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.intro-gradient {
+.intro-hex {
+  background: #9796f0; 
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.intro-rgb {
   background: rgb(168, 85, 247);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.intro-gradient {
+  background: linear-gradient(to bottom right, #9796f0, #fbc7d4);
   background-clip: text;
   color: transparent;
   -webkit-background-clip: text;
