@@ -11,7 +11,7 @@ const projectsData = [
         description: 'Plain html/css/js website.',
         image: '/images/projects/2.png',
         tag: ['All', 'Web'],
-        gitUrl: '/',
+        gitUrl: 'https://github.com/bjan816',
         previewUrl: '/'
     },
     {
@@ -20,7 +20,7 @@ const projectsData = [
         description: 'responsive single-page website.',
         image: '/images/projects/3.png',
         tag: ['All', 'Web'],
-        gitUrl: '/',
+        gitUrl: 'https://github.com/bjan816',
         previewUrl: '/'
     },
     {
@@ -29,7 +29,7 @@ const projectsData = [
         description: 'A game to test and enhance the user\'s spatial skills. Made with Godot engine and C#.',
         image: '/images/projects/4.png',
         tag: ['All', 'Game'],
-        gitUrl: '/',
+        gitUrl: 'https://github.com/bjan816',
         previewUrl: '/'
     }
 ]

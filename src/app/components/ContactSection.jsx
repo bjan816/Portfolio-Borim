@@ -29,7 +29,7 @@ const ContactSection = () => {
                     <Link href='https://github.com/bjan816' className='hover:scale-110 duration-300'>
                         <Image src={GithubIcon} alt='Github Icon' />
                     </Link>
-                    <Link href='https://github.com/bjan816' className='hover:scale-110 duration-300'>
+                    <Link href='https://www.linkedin.com/in/borim-jang' className='hover:scale-110 duration-300'>
                         <Image src={LinkedinIcon} alt='Linkedin Icon' />
                     </Link>
                 </div>
