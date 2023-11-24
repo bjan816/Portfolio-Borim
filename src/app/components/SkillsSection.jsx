@@ -31,27 +31,28 @@ const skillsData = [
     },
     {
         id: 5,
-        description: 'HTML',
-        src: '/images/html.png',
-        alt: 'HTML image',
+        description: 'R',
+        src: '/images/Rlang.png',
+        alt: 'R image',
     },
     {
         id: 6,
-        description: 'CSS',
-        src: '/images/css.png',
-        alt: 'CSS image',
-    },
-    {
-        id: 7,
         description: 'REACT',
         src: '/images/react.png',
         alt: 'REACT image',
     },
     {
-        id: 8,
+        id: 7,
         description: 'NEXT.JS',
         src: '/images/nextjs.png',
         alt: 'Next.js image',
+        
+    },
+    {
+        id: 8,
+        description: 'FLASK',
+        src: '/images/flask.png',
+        alt: 'FLASK image',
     },
     {
         id: 9,

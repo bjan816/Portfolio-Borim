@@ -18,15 +18,17 @@ const HeroSection = () => {
                     className='col-span-8 place-self-center text-center sm:text-left justify-self-start'>
                     <h1 className='text-gray-200 mb-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl lg:leading-normal font-extrabold'>
                         <span>
-                            Hi, I&apos;m{''}
+                            Borim Jang
                         </span>
                         <div className='text-purple-500 pt-1'>
                             {/* text-transparent bg-clip-text bg-gradient-to-br from-purple-500 via-purple-500 to-purple-500 */}
                             <TypeAnimation
                                 sequence={[
-                                    'Borim Jang',
+                                    'Web Developer',
                                     1000,
                                     'Software Developer',
+                                    1000,
+                                    'Full Stack Developer',
                                     1000,
                                     'UI/UX Designer',
                                     1000,
