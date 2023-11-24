@@ -4,7 +4,7 @@ import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import { Link as ScrollLink } from 'react-scroll'
-import Link from "next/link"
+// import Link from "next/link"
 import { motion } from 'framer-motion'
 
 const HeroSection = () => {
@@ -52,6 +52,8 @@ const HeroSection = () => {
                             to="work"
                             smooth={true}
                             duration={500}
+                            spy={true}
+                            offset={-50}
                         >
                             <button className="group text-gray-200 border-2 border-gray-300 px-6 py-3 my-2 flex items-center justify-center w-full sm:w-fit hover:bg-purple-400 hover:border-purple-400">
                                 View Work
