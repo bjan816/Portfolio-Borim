@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className='footer border-t border-t-[#33353F] text-gray-200'>
             <div className='container p-8 flex justify-between items-center'>
                 <span className='text-gray-200 font-medium'>BORIM.ME</span>
-                <p className='text-slate-600'>@All rights reserved.</p>
+                <p className='text-slate-600'>© Borim Jang 2023.</p>
             </div>
         </footer>
     )
