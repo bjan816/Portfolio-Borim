@@ -10,7 +10,6 @@ const TAB_DATA = [
         id: "skills",
         content: (
             <ul className='list-disc pl-2'>
-                <li>These are the technologies that I have worked with.</li>
                 <li>React</li>
                 <li>Node.js</li>
                 <li>JavaScript</li>
@@ -58,13 +57,22 @@ const AboutSection = () => {
     }
 
     return (
-        <section className='text-gray-200 sm:py-10 lg:py-20' id='about'>
-            <div className='md:grid md:grid-cols-2 gap-8 items-center py-8 xl:gap-16 sm:py-16 xl:px-16'>
+        <section className='text-gray-200 sm:py-10' id='about'>
+            <div className='md:grid md:grid-cols-2 gap-8 xl:gap-16 items-center py-8 sm:py-16 xl:px-12'>
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.5 }}>
-                    <Image src='/images/34.png' width={500} height={500} alt='About me image' />
+                    transition={{ duration: 0.5 }}
+                    className='flex justify-center items-center md:flex-none md:justify-start md:items-start'>
+                    <div className='rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative'>
+                        <Image
+                            src='/images/purple-workstation.png'
+                            alt='Purple workstation image'
+                            className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
+                            width={300}
+                            height={300}
+                        />
+                    </div>
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
