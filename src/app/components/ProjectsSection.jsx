@@ -53,49 +53,51 @@ const ProjectsSection = () => {
     };
 
     return (
-        <section id='work' className='sm:py-10 lg:py-20'>
-            <h2 className='text-center text-3xl sm:text-4xl md:text-5xl font-bold text-gray-200 mt-4 mb-6'>
-                Work
-            </h2>
-            <h3 className='text-[#ADB7BE] text-center text-base lg:text-lg'>
-                Here is a small collection of some of my recent work.
-                <br></br>
-                I am constantly working on new projects, where I will update this section accordingly.
-            </h3>
-            <div className='text-gray-200 flex flex-row justify-center items-center gap-2 py-8'>
-                <ProjectTag
-                    onClick={handleTabChange}
-                    name="All"
-                    isSelected={tag === 'All'} />
-                <ProjectTag
-                    onClick={handleTabChange}
-                    name="Web"
-                    isSelected={tag === 'Web'} />
-                <ProjectTag
-                    onClick={handleTabChange}
-                    name="Game"
-                    isSelected={tag === 'Game'} />
+        <section id='work' className='sm:py-10 lg:py-20 md:h-screen'>
+            <div className='h-full'>
+                <h2 className='text-center text-3xl sm:text-4xl md:text-5xl font-bold text-gray-200 mt-4 mb-6'>
+                    Work
+                </h2>
+                <h3 className='text-[#ADB7BE] text-center text-base lg:text-lg'>
+                    Here is a small collection of some of my recent work.
+                    <br></br>
+                    I am constantly working on new projects, where I will update this section accordingly.
+                </h3>
+                <div className='text-gray-200 flex flex-row justify-center items-center gap-2 py-8'>
+                    <ProjectTag
+                        onClick={handleTabChange}
+                        name="All"
+                        isSelected={tag === 'All'} />
+                    <ProjectTag
+                        onClick={handleTabChange}
+                        name="Web"
+                        isSelected={tag === 'Web'} />
+                    <ProjectTag
+                        onClick={handleTabChange}
+                        name="Game"
+                        isSelected={tag === 'Game'} />
+                </div>
+                <ul ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>
+                    {filteredProjects.map((project, index) => (
+                        <motion.li
+                            key={index}
+                            variants={cardVariants}
+                            initial='initial'
+                            animate={isInView ? 'animate' : 'initial'}
+                            transition={{ duration: 0.3, delay: index * 0.4 }}
+                        >
+                            <ProjectCard
+                                key={project.id}
+                                imgUrl={project.image}
+                                title={project.title}
+                                description={project.description}
+                                gitUrl={project.gitUrl}
+                                previewUrl={project.previewUrl}
+                            />
+                        </motion.li>
+                    ))}
+                </ul>
             </div>
-            <ul ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>
-                {filteredProjects.map((project, index) => (
-                    <motion.li
-                        key={index}
-                        variants={cardVariants}
-                        initial='initial'
-                        animate={isInView ? 'animate' : 'initial'}
-                        transition={{ duration: 0.3, delay: index * 0.4 }}
-                    >
-                        <ProjectCard
-                            key={project.id}
-                            imgUrl={project.image}
-                            title={project.title}
-                            description={project.description}
-                            gitUrl={project.gitUrl}
-                            previewUrl={project.previewUrl}
-                        />
-                    </motion.li>
-                ))}
-            </ul>
         </section>
     )
 }

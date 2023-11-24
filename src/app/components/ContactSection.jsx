@@ -16,7 +16,7 @@ const ContactSection = () => {
     return (
         <section
             id='contact'
-            className='grid md:grid-cols-2 my-12 md:my-16 py-24 gap-4'
+            className='grid md:grid-cols-2 my-12 md:my-14 py-24 gap-4'
         >
             <div>
                 <h5 className='text-3xl sm:text-4xl md:text-5xl font-bold text-gray-200 mb-4'>

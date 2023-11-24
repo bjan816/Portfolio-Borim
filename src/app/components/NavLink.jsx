@@ -7,7 +7,7 @@ const NavLink = ({ to, title }) => {
             to={to}
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={-40}
             duration={500}
             className='block py-2 pl-3 pr-4 text-[#ADB7BE] sm:text-xl rounded md:p-0 hover:text-gray-200'
         >

@@ -9,8 +9,8 @@ import { motion } from 'framer-motion'
 
 const HeroSection = () => {
     return (
-        <section id='home' className='sm:py-10 lg:py-20'>
-            <div className='grid grid-cols-1 sm:grid-cols-12'>
+        <section id='home' className='md:h-screen'> {/* lg:py-16 */}
+            <div className='grid grid-cols-1 sm:grid-cols-12 h-full'>
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
@@ -53,7 +53,7 @@ const HeroSection = () => {
                             smooth={true}
                             duration={500}
                             spy={true}
-                            offset={-50}
+                            offset={-30}
                         >
                             <button className="group text-gray-200 border-2 border-gray-300 px-6 py-3 my-2 flex items-center justify-center w-full sm:w-fit hover:bg-purple-400 hover:border-purple-400">
                                 View Work
@@ -84,7 +84,7 @@ const HeroSection = () => {
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
-                    className='col-span-4 place-self-center mt-4 lg:mt-0'>
+                    className='col-span-4 place-self-center mt-6 sm:mt-0'>
                     <div className='w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]'>
                         <Image src='/images/purple-cloud.png' width={400} height={400} alt='Aesthetic purple cloud image' />
                     </div>

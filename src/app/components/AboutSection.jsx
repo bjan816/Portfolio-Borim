@@ -57,8 +57,8 @@ const AboutSection = () => {
     }
 
     return (
-        <section className='text-gray-200 sm:py-10' id='about'>
-            <div className='md:grid md:grid-cols-2 gap-8 xl:gap-16 items-center py-8 sm:py-16 xl:px-12'>
+        <section className='text-gray-200 sm:py-10 lg:py-20 md:h-screen' id='about'>
+            <div className='md:grid md:grid-cols-2 gap-8 xl:gap-16 xl:px-12 items-center py-8 sm:py-16 h-full'> {/* px-4 xl:px-16 */}
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
@@ -77,7 +77,7 @@ const AboutSection = () => {
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
-                    transition={{ duration: 0.5 }} className='mt-4 md:mt-0 text-left flex flex-col'>
+                    transition={{ duration: 0.5 }} className='mt-6 md:mt-0 text-left flex flex-col'>
                     <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold text-gray-200 mb-6'>
                         About Me
                     </h2>
