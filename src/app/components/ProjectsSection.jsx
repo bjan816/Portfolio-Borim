@@ -8,7 +8,7 @@ const projectsData = [
     {
         id: 1,
         title: 'Ako Maori Website',
-        description: 'Plain html/css/js website.',
+        description: 'Plain HTML/CSS/JS website.',
         image: '/images/projects/2.png',
         tag: ['All', 'Web'],
         gitUrl: 'https://github.com/bjan816',
@@ -17,7 +17,7 @@ const projectsData = [
     {
         id: 2,
         title: 'Carbon Footprint Website',
-        description: 'responsive single-page website.',
+        description: 'Only the landing page is implemented.',
         image: '/images/projects/3.png',
         tag: ['All', 'Web'],
         gitUrl: 'https://github.com/bjan816',
@@ -26,7 +26,7 @@ const projectsData = [
     {
         id: 3,
         title: 'ThinkSpatial Game',
-        description: 'A game to test and enhance the user\'s spatial skills. Made with Godot engine and C#.',
+        description: 'A game to test and train the user\'s spatial skills. Made using Godot engine.',
         image: '/images/projects/4.png',
         tag: ['All', 'Game'],
         gitUrl: 'https://github.com/bjan816',
