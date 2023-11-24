@@ -50,7 +50,7 @@ const skillsData = [
     {
         id: 8,
         description: 'C++',
-        src: '/images/c++.png',
+        src: '/images/cpp.png',
         alt: 'C++ image',
     },
     {
@@ -58,7 +58,25 @@ const skillsData = [
         description: 'C#',
         src: '/images/csharp.png',
         alt: 'C# image',   
-    }
+    },
+    {
+        id: 10,
+        description: 'SQLITE',
+        src: '/images/sqlite.png',
+        alt: 'SQLITE image',
+    },
+    {
+        id: 11,
+        description: 'NEXT.JS',
+        src: '/images/nextjs.png',
+        alt: 'Next.js image',
+    },
+    {
+        id: 12,
+        description: 'FLASK',
+        src: '/images/flask.png',
+        alt: 'FLASK image',   
+    },
 ]
 
 const SkillsSection = () => {
