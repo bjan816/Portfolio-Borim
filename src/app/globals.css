@@ -66,3 +66,8 @@ body {
     #ff56f6 117.04%
   );
 }
+
+html {
+  --scroll-behavior: smooth !important;
+  scroll-behavior: smooth !important;
+}
