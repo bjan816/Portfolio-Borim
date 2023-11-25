@@ -78,10 +78,10 @@ const AboutSection = () => {
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }} className='mt-6 md:mt-0 text-left flex flex-col'>
-                    <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold text-gray-200 mb-6'>
+                    <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold text-gray-200 mb-4'>
                         About Me
                     </h2>
-                    <h3 className='text-purple-400 text-xl sm:text-2xl mb-2 lg:text-3xl font-extrabold'>
+                    <h3 className='text-xl sm:text-2xl mb-2 lg:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#42A6E3] to-[#FF56F6] hover:from-[#FF56F6] hover:to-[#42A6E3]'>
                         I&apos;m Borim, nice to meet you.
                     </h3>
                     <p className='text-base lg:text-lg text-[#ADB7BE]'>

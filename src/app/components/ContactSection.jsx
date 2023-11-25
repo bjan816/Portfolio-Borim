@@ -81,7 +81,7 @@ const ContactSection = () => {
                     </button>
                     {
                         messageSubmitted ? (
-                            <p className="text-purple-500 text-sm mt-4 text-center">
+                            <p className="text-md font-semibold mt-4 text-center text-transparent bg-clip-text bg-gradient-to-r from-[#42A6E3] to-[#FF56F6] hover:from-[#FF56F6] hover:to-[#42A6E3]">
                                 Message sent successfully!
                             </p>
                         ) : (null)
