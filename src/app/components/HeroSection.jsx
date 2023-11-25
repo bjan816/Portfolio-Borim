@@ -3,8 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation'
 import { HiArrowNarrowRight } from 'react-icons/hi'
-import { Link as ScrollLink } from 'react-scroll'
-// import Link from "next/link"
+import Link from "next/link"
 import { motion } from 'framer-motion'
 
 const HeroSection = () => {
@@ -19,7 +18,7 @@ const HeroSection = () => {
                     <h1 className='text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl lg:leading-normal font-extrabold mb-2 lg:mb-0'>
                         Borim Jang
                     </h1>
-                    <div className='text-gray-200 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-2 lg:mb-5'>
+                    <div className='text-gray-200 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-2 md:mb-4 lg:mb-5'>
                         {/*<span>I am a&nbsp;</span>*/}
                         <TypeAnimation
                             sequence={[
@@ -41,19 +40,15 @@ const HeroSection = () => {
                     <h2 className='text-[#ADB7BE] text-2xl sm:text-3xl lg:text-4xl font-extrabold mb-2'>
                         Computer Science Major
                     </h2>
-                    <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-4 lg:mb-8 font-medium'>
+                    <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-4 sm:mb-6 lg:mb-8 font-medium'>
                         Always on a mission to learn and develop technically and personally.
                         <br>
                         </br>
                         Passionate about making a positive difference to the world through technology.
                     </p>
                     <div>
-                        <ScrollLink
-                            to="work"
-                            smooth={true}
-                            duration={500}
-                            spy={true}
-                            offset={-30}
+                        <Link
+                            href='#work'
                         >
                             <button className="btn group rounded-full font-medium text-gray-100 px-6 py-3 my-2 flex items-center justify-center w-full sm:w-fit">
                                 {/* group text-gray-200 border-2 border-gray-300 px-6 py-3 my-2 flex items-center justify-center w-full sm:w-fit hover:bg-purple-400 hover:border-purple-400 */}
@@ -62,7 +57,7 @@ const HeroSection = () => {
                                     <HiArrowNarrowRight className="ml-3" />
                                 </span>
                             </button>
-                        </ScrollLink>
+                        </Link>
                         {/*
                         <Link
                             href="#contact"
