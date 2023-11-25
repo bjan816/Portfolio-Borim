@@ -16,34 +16,32 @@ const HeroSection = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }}
                     className='col-span-8 place-self-center text-center sm:text-left justify-self-start'>
-                    <h1 className='text-gray-200 mb-4 text-4xl sm:text-5xl md:text-6xl lg:text-7xl lg:leading-normal font-extrabold'>
-                        <span>
-                            Borim Jang
-                        </span>
-                        <div className='text-purple-500 pt-1'>
-                            {/* text-transparent bg-clip-text bg-gradient-to-br from-purple-500 via-purple-500 to-purple-500 */}
-                            <TypeAnimation
-                                sequence={[
-                                    'Web Developer',
-                                    1000,
-                                    'Software Developer',
-                                    1000,
-                                    'Full Stack Developer',
-                                    1000,
-                                    'UI/UX Designer',
-                                    1000,
-                                ]}
-                                wrapper="span"
-                                speed={50}
-                                //style={{ fontSize: '2em', display: 'inline-block' }}
-                                repeat={Infinity}
-                            />
-                        </div>
+                    <h1 className='text-gray-200 text-4xl sm:text-5xl md:text-6xl lg:text-7xl lg:leading-normal font-extrabold mb-2 lg:mb-0'>
+                        Borim Jang
                     </h1>
-                    <h2 className='text-[#ADB7BE] text-2xl sm:text-3xl lg:text-4xl mb-2 font-extrabold'>
+                    <div className='text-gray-200 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold mb-2 lg:mb-5'>
+                        {/*<span>I am a&nbsp;</span>*/}
+                        <TypeAnimation
+                            sequence={[
+                                'Web Developer.',
+                                1000,
+                                'Software Developer.',
+                                1000,
+                                'Full Stack Developer.',
+                                1000,
+                                'UI/UX Designer.',
+                                1000,
+                            ]}
+                            wrapper="span"
+                            speed={50}
+                            repeat={Infinity}
+                            className='text-transparent bg-clip-text bg-gradient-to-r from-[#42A6E3] to-[#FF56F6] hover:from-[#FF56F6] hover:to-[#42A6E3]'
+                        />
+                    </div>
+                    <h2 className='text-[#ADB7BE] text-2xl sm:text-3xl lg:text-4xl font-extrabold mb-2'>
                         Computer Science Major
                     </h2>
-                    <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6 lg:mb-8 font-medium'>
+                    <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-4 lg:mb-8 font-medium'>
                         Always on a mission to learn and develop technically and personally.
                         <br>
                         </br>
@@ -57,7 +55,8 @@ const HeroSection = () => {
                             spy={true}
                             offset={-30}
                         >
-                            <button className="group text-gray-200 border-2 border-gray-300 px-6 py-3 my-2 flex items-center justify-center w-full sm:w-fit hover:bg-purple-400 hover:border-purple-400">
+                            <button className="btn group rounded-full font-medium text-gray-100 px-6 py-3 my-2 flex items-center justify-center w-full sm:w-fit">
+                                {/* group text-gray-200 border-2 border-gray-300 px-6 py-3 my-2 flex items-center justify-center w-full sm:w-fit hover:bg-purple-400 hover:border-purple-400 */}
                                 View Work
                                 <span className="group-hover:rotate-90 duration-300">
                                     <HiArrowNarrowRight className="ml-3" />

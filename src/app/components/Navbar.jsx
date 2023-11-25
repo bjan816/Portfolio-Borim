@@ -35,7 +35,7 @@ const Navbar = () => {
     return (
         <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100 mx-auto border-b border-[#33353F]'>
             <div className='flex flex-wrap container items-center justify-between mx-auto px-4 py-2 lg:py-4'>
-                <Link to='home' className='text-2xl md:text-3xl text-gray-200 font-medium md:font-semibold'>
+                <Link to='home' className='text-2xl md:text-3xl font-medium md:font-semibold text-gray-200 hover:cursor-pointer'>
                     BORIM.ME
                 </Link>
                 <div className='mobile-menu block md:hidden'>

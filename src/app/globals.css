@@ -46,3 +46,23 @@ body {
   color: transparent;
   -webkit-background-clip: text;
 }
+
+.btn {
+  background: linear-gradient(
+    92.23deg,
+    #ff56f6 21.43%,
+    #b936ee 50.63%,
+    #3bace2 100%,
+    #406aff 117.04%
+  );
+}
+
+.btn:hover {
+  background: linear-gradient(
+    92.23deg,
+    #406aff 21.43%,
+    #3bace2 50.63%,
+    #b936ee 100%,
+    #ff56f6 117.04%
+  );
+}
