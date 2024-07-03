@@ -31,28 +31,28 @@ const skillsData = [
     },
     {
         id: 5,
+        description: 'REACT',
+        src: '/images/react.png',
+        alt: 'REACT logo',
+        
+    },
+    {
+        id: 6,
+        description: 'NEXT.js',
+        src: '/images/nextjs.png',
+        alt: 'Next.js logo',
+    },
+    {
+        id: 7,
         description: 'MySQL',
         src: '/images/mysql.png',
         alt: 'MySQL logo',
     },
     {
-        id: 6,
-        description: 'REACT',
-        src: '/images/react.png',
-        alt: 'REACT logo',
-    },
-    {
-        id: 7,
-        description: 'NEXT.JS',
-        src: '/images/nextjs.png',
-        alt: 'Next.js logo',
-        
-    },
-    {
         id: 8,
-        description: 'FLASK',
-        src: '/images/flask.png',
-        alt: 'FLASK logo',
+        description: 'PostgreSQL',
+        src: '/images/postgresql.png',
+        alt: 'PostgreSQL logo',
     },
     {
         id: 9,
@@ -93,7 +93,7 @@ const SkillsSection = () => {
                     Skills
                 </h2>
                 <h3 className='text-[#ADB7BE] text-center text-base lg:text-lg'>
-                    These are the technologies that I have worked with.
+                These are the technologies that I have worked the most with.
                 </h3>
                 <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full">
                     <ul ref={ref} className="w-full grid grid-cols-2 sm:grid-cols-3 gap-6 text-center py-8">
