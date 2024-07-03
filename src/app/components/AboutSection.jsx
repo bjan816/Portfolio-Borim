@@ -82,7 +82,7 @@ const AboutSection = () => {
                         About
                     </h2>
                     <h3 className='text-xl sm:text-2xl mb-2 lg:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#42A6E3] to-[#FF56F6] hover:from-[#FF56F6] hover:to-[#42A6E3]'>
-                        Kia ora! I&apos;m Borim. Welcome to my portfolio.
+                        Kia ora! I&apos;m Borim.
                     </h3>
                     <p className='text-base lg:text-lg text-[#ADB7BE]'>
                         Graduate of The University of Auckland, New Zealand, with a Bachelor&apos;s degree in Computer Science. <br></br>
