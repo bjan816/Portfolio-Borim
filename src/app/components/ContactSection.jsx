@@ -22,7 +22,7 @@ const ContactSection = () => {
                 <h5 className='text-3xl sm:text-4xl md:text-5xl font-bold text-gray-200 mb-4'>
                     Contact
                 </h5>
-                <p className='text-[#ADB7BE] text-base lg:text-lg mb-4 max-w-md'>
+                <p className='text-[#ADB7BE] text-base lg:text-lg mb-4 max-w-lg'>
                     If you would like to contact me, please fill out the form. <br></br>
                     Alternatively, you can email me directly at bjan816@aucklanduni.ac.nz.
                 </p>
@@ -46,7 +46,7 @@ const ContactSection = () => {
                             type='text'
                             name='name'
                             required
-                            placeholder='Your Name'
+                            placeholder='Your name'
                             className='bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5'
                         />
                     </div>
