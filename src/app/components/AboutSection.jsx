@@ -79,15 +79,15 @@ const AboutSection = () => {
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.5 }} className='mt-6 md:mt-0 text-left flex flex-col'>
                     <h2 className='text-3xl sm:text-4xl md:text-5xl font-bold text-gray-200 mb-4'>
-                        About Me
+                        About
                     </h2>
                     <h3 className='text-xl sm:text-2xl mb-2 lg:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#42A6E3] to-[#FF56F6] hover:from-[#FF56F6] hover:to-[#42A6E3]'>
-                        I&apos;m Borim, nice to meet you.
+                        Kia ora! I&apos;m Borim. Welcome to my portfolio.
                     </h3>
                     <p className='text-base lg:text-lg text-[#ADB7BE]'>
-                        I am in my final year of BSc Computer Science at The University of Auckland, New Zealand.
-                        Currently, my interests lie in software development and security, with some data science on the side.
-                        I&apos;m committed to learning as much as I can and developing high-quality, functional software.
+                        Graduate of The University of Auckland, New Zealand, with a Bachelor's degree in Computer Science. <br></br>
+                        I am passionate about all things technology, with a focus on web development and artificial intelligence. <br></br>
+                        Currently engaged in diverse projects to broaden my expertise while continually exploring and developing new skills.
                     </p>
                     {/*<div className='flex flex-row mt-8'>
                         <TabButton
