@@ -85,7 +85,7 @@ const AboutSection = () => {
                         Kia ora! I&apos;m Borim. Welcome to my portfolio.
                     </h3>
                     <p className='text-base lg:text-lg text-[#ADB7BE]'>
-                        Graduate of The University of Auckland, New Zealand, with a Bachelor's degree in Computer Science. <br></br>
+                        Graduate of The University of Auckland, New Zealand, with a Bachelor&apos;s degree in Computer Science. <br></br>
                         I am passionate about all things technology, with a focus on web development and artificial intelligence. <br></br>
                         Currently engaged in diverse projects to broaden my expertise while continually exploring and developing new skills.
                     </p>
