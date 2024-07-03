@@ -23,7 +23,8 @@ const ContactSection = () => {
                     Contact
                 </h5>
                 <p className='text-[#ADB7BE] text-base lg:text-lg mb-4 max-w-md'>
-                    If you would like to contact me, please fill out the form.
+                    If you would like to contact me, please fill out the form. <br></br>
+                    Alternatively, you can email me directly at bjan816@aucklanduni.ac.nz.
                 </p>
                 <div className='socials flex flex-row gap-2'>
                     <Link href='https://github.com/bjan816' className='hover:scale-110 duration-300'>
