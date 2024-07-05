@@ -56,9 +56,9 @@ const skillsData = [
     },
     {
         id: 9,
-        description: 'SQLITE',
-        src: '/images/sqlite.png',
-        alt: 'SQLITE logo',
+        description: 'OpenGL',
+        src: '/images/opengl.png',
+        alt: 'OpenGL logo',
     },
 ]
 
@@ -74,6 +74,12 @@ const skillsData = [
         description: 'FLASK',
         src: '/images/flask.png',
         alt: 'FLASK image',
+    },
+    {
+        id: 12,
+        description: 'SQLITE',
+        src: '/images/sqlite.png',
+        alt: 'SQLITE logo',
     },
 */}
 
