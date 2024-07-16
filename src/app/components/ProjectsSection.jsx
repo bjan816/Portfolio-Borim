@@ -7,30 +7,39 @@ import { motion, useInView } from "framer-motion"
 const projectsData = [
     {
         id: 1,
-        title: 'Ako Maori Website',
-        description: 'Plain HTML/CSS/JS website.',
-        image: '/images/projects/2.png',
-        tag: ['All', 'Web'],
+        title: 'ThinkSpatial Game',
+        description: 'A game created with the Godot engine to test and enhance the user\'s spatial skills. Click preview to see the demo.',
+        image: '/images/projects/4.png',
+        tag: ['All', 'Game'],
         gitUrl: 'https://github.com/bjan816',
-        previewUrl: '/'
+        previewUrl: 'https://youtu.be/dDRYtwLqyuI'
     },
     {
         id: 2,
         title: 'Carbon Footprint Website',
-        description: 'Single-page responsive website.',
+        description: 'Single-page responsive website. Preview currently unavailable.',
         image: '/images/projects/3.png',
         tag: ['All', 'Web'],
         gitUrl: 'https://github.com/bjan816',
-        previewUrl: '/'
+        previewUrl: 'https://github.com/bjan816'
     },
     {
         id: 3,
-        title: 'ThinkSpatial Game',
-        description: 'A game to test and train the user\'s spatial skills. Made using Godot engine.',
-        image: '/images/projects/4.png',
-        tag: ['All', 'Game'],
+        title: 'Ako Maori Website',
+        description: 'Plain HTML/CSS/JS website. Preview currently unavailable.',
+        image: '/images/projects/2.png',
+        tag: ['All', 'Web'],
         gitUrl: 'https://github.com/bjan816',
-        previewUrl: '/'
+        previewUrl: 'https://github.com/bjan816'
+    },
+    {
+        id: 4,
+        title: 'Barcode Detection Programme',
+        description: 'A Python programme designed to detect product barcodes. Click preview to see the demo.',
+        image: '/images/projects/5.png',
+        tag: ['All'],
+        gitUrl: 'https://github.com/bjan816',
+        previewUrl: 'https://youtu.be/G_JjX7c6FBM'
     }
 ]
 
