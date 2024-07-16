@@ -64,8 +64,7 @@ const ProjectsSection = () => {
     };
 
     return (
-        <section id='work' className='sm:py-10 lg:py-20 md:h-screen'>
-            <div className='h-full'>
+        <section id='work' className='sm:py-10 lg:py-20'>
                 <h2 className='text-center text-3xl sm:text-4xl md:text-5xl font-bold text-gray-200 mt-4 mb-6'>
                     Work
                 </h2>
@@ -108,7 +107,6 @@ const ProjectsSection = () => {
                         </motion.li>
                     ))}
                 </ul>
-            </div>
         </section>
     )
 }
