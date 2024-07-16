@@ -23,6 +23,7 @@ const projectsData = [
         gitUrl: 'https://github.com/bjan816',
         previewUrl: 'https://github.com/bjan816'
     },
+    /*
     {
         id: 3,
         title: 'Ako Maori Website',
@@ -32,6 +33,7 @@ const projectsData = [
         gitUrl: 'https://github.com/bjan816',
         previewUrl: 'https://github.com/bjan816'
     },
+    */
     {
         id: 4,
         title: 'Barcode Detection Programme',
