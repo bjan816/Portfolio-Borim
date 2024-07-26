@@ -11,7 +11,7 @@ const projectsData = [
         description: 'A game created with the Godot engine to test and enhance the user\'s spatial skills. Click preview to see the demo.',
         image: '/images/projects/4.png',
         tag: ['All', 'Game'],
-        gitUrl: 'https://github.com/bjan816',
+        gitUrl: 'https://github.com/bjan816/ThinkSpatial.git',
         previewUrl: 'https://youtu.be/dDRYtwLqyuI'
     },
     {
