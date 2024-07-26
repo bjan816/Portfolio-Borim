@@ -17,7 +17,7 @@ const projectsData = [
     {
         id: 2,
         title: 'Carbon Footprint Website',
-        description: 'Single-page responsive website. Preview currently unavailable.',
+        description: 'Single-page responsive website. Preview & Github repo currently unavailable.',
         image: '/images/projects/3.png',
         tag: ['All', 'Web'],
         gitUrl: 'https://github.com/bjan816',
