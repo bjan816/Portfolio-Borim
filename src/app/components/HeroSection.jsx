@@ -26,7 +26,7 @@ const HeroSection = () => {
                                 1000,
                                 'Web Developer.',
                                 1000,
-                                'Database Developer.',
+                                'Database Administrator.',
                                 1000,
                                 'Full Stack Developer.',
                                 1000,
