@@ -37,7 +37,7 @@ const projectsData = [
     {
         id: 4,
         title: 'Barcode Detection Programme',
-        description: 'A Python programme designed to detect product barcodes. Click preview to see the demo.',
+        description: 'A Python programme designed to detect product barcodes. Click preview to see the demo. Github repo currently unavailable.',
         image: '/images/projects/5.png',
         tag: ['All'],
         gitUrl: 'https://github.com/bjan816',
