@@ -7,42 +7,42 @@ import { motion, useInView } from "framer-motion"
 const projectsData = [
     {
         id: 1,
-        title: 'ThinkSpatial Game',
+        title: 'ThinkSpatial',
         description: 'A game created with the Godot engine to test and enhance the user\'s spatial skills. Click preview to see the demo.',
-        image: '/images/projects/4.png',
+        image: '/images/projects/ThinkSpatial.png',
         tag: ['All', 'Game'],
         gitUrl: 'https://github.com/bjan816/ThinkSpatial.git',
         previewUrl: 'https://youtu.be/dDRYtwLqyuI'
     },
     {
         id: 2,
-        title: 'Carbon Footprint Website',
-        description: 'Single-page responsive website. Preview & Github repo currently unavailable.',
-        image: '/images/projects/3.png',
+        title: 'Etheria',
+        description: 'Web 3.0 blockchain application. Requires Metamask chrome extension. Click preview to see the demo.',
+        image: '/images/projects/Etheria.png',
+        tag: ['All', 'Web'],
+        gitUrl: 'https://github.com/bjan816/Etheria',
+        previewUrl: 'https://etheria-borim.netlify.app/'
+    },
+    {
+        id: 3,
+        title: 'Carbon Easy!',
+        description: 'Single-page responsive website for calculating an individual\'s carbon footprint. Preview and GitHub repo currently unavailable.',
+        image: '/images/projects/CarbonEasy.png',
         tag: ['All', 'Web'],
         gitUrl: 'https://github.com/bjan816',
         previewUrl: 'https://github.com/bjan816'
     },
     /*
     {
-        id: 3,
+        id: 4,
         title: 'Ako Maori Website',
         description: 'Plain HTML/CSS/JS website. Preview currently unavailable.',
-        image: '/images/projects/2.png',
+        image: '/images/projects/AkoMaori.png',
         tag: ['All', 'Web'],
-        gitUrl: 'https://github.com/bjan816',
-        previewUrl: 'https://github.com/bjan816'
-    },
-    */
-    {
-        id: 4,
-        title: 'Barcode Detection Programme',
-        description: 'A Python programme designed to detect product barcodes. Click preview to see the demo. Github repo currently unavailable.',
-        image: '/images/projects/5.png',
-        tag: ['All'],
-        gitUrl: 'https://github.com/bjan816',
-        previewUrl: 'https://youtu.be/G_JjX7c6FBM'
+        gitUrl: 'https://github.com/bjan816/Etheria',
+        previewUrl: 'https://etheria-borim.netlify.app/'
     }
+    */
 ]
 
 const ProjectsSection = () => {
