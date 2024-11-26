@@ -8,7 +8,7 @@ const projectsData = [
     {
         id: 1,
         title: 'ThinkSpatial',
-        description: 'A 3D game developed with the Godot engine, designed to challenge and enhance spatial intelligence. Click &apos;Preview&apos; to watch the demo or visit the GitHub repository for the source code.',
+        description: 'A 3D game developed with the Godot engine, designed to challenge and enhance spatial intelligence. Click \'Preview\' to watch the demo or visit the GitHub repository for the source code.',
         image: '/images/projects/ThinkSpatial.png',
         tag: ['All', 'Game'],
         gitUrl: 'https://github.com/bjan816/ThinkSpatial.git',
@@ -17,7 +17,7 @@ const projectsData = [
     {
         id: 2,
         title: 'Etheria',
-        description: 'A Web 3.0 blockchain DApp connecting to the Ethereum network, requiring the MetaMask browser extension. Click &apos;Preview&apos; to watch the demo or visit the GitHub repository for the source code.',
+        description: 'A Web 3.0 blockchain DApp connecting to the Ethereum network, requiring the MetaMask browser extension. Click \'Preview\' to watch the demo or visit the GitHub repository for the source code.',
         image: '/images/projects/Etheria.PNG',
         tag: ['All', 'Web'],
         gitUrl: 'https://github.com/bjan816/Etheria',
