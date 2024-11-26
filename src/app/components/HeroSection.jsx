@@ -24,11 +24,11 @@ const HeroSection = () => {
                             sequence={[
                                 'Software Engineer.',
                                 1000,
+                                'Full Stack Developer.',
+                                1000,
                                 'Web Developer.',
                                 1000,
-                                'Database Administrator.',
-                                1000,
-                                'Full Stack Developer.',
+                                'Database Developer.',
                                 1000,
                                 'UI/UX Designer.',
                                 1000,
@@ -40,7 +40,7 @@ const HeroSection = () => {
                         />
                     </div>
                     <h2 className='text-[#ADB7BE] text-2xl sm:text-3xl lg:text-4xl font-extrabold mb-2'>
-                        Computer Science Major
+                        Computer Science Graduate
                     </h2>
                     <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-4 sm:mb-6 lg:mb-8 font-medium'>
                         Always on a mission to learn and develop technically and personally.
