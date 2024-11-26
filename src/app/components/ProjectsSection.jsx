@@ -17,7 +17,7 @@ const projectsData = [
     {
         id: 2,
         title: 'Etheria',
-        description: 'Web 3.0 blockchain application that requires the MetaMask browser extension. Click preview to see the demo.',
+        description: 'Web 3.0 blockchain DApp that requires the MetaMask browser extension. Click preview to see the demo.',
         image: '/images/projects/Etheria.PNG',
         tag: ['All', 'Web'],
         gitUrl: 'https://github.com/bjan816/Etheria',
