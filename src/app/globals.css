@@ -26,20 +26,6 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-.intro-hex {
-  background: #AC66D1; 
-  background-clip: text;
-  color: transparent;
-  -webkit-background-clip: text;
-}
-
-.intro-rgb {
-  background: rgb(168, 85, 247);
-  background-clip: text;
-  color: transparent;
-  -webkit-background-clip: text;
-}
-
 .intro-gradient {
   background: linear-gradient(to bottom right, #9796f0, #fce9ee);
   background-clip: text;
@@ -70,4 +56,24 @@ body {
 html {
   --scroll-behavior: smooth !important;
   scroll-behavior: smooth !important;
+}
+
+.spline {
+  margin: 0;
+
+  @media (max-width: 1024px) {
+    transform: scale(0.8);
+  }
+
+  @media (max-width: 800px) {
+    transform: scale(0.7);
+  }
+
+  @media (max-width: 600px) {
+    transform: scale(0.5);
+  }
+  
+  @media (max-width: 375px) {
+    transform: scale(0.45);
+  }
 }
