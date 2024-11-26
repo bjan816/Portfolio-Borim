@@ -7,21 +7,21 @@ import { motion, useInView } from "framer-motion"
 const projectsData = [
     {
         id: 1,
-        title: 'ThinkSpatial',
-        description: 'A game created with the Godot engine to test and enhance the user\'s spatial skills. Click preview to see the demo.',
-        image: '/images/projects/ThinkSpatial.png',
-        tag: ['All', 'Game'],
-        gitUrl: 'https://github.com/bjan816/ThinkSpatial.git',
-        previewUrl: 'https://youtu.be/dDRYtwLqyuI'
-    },
-    {
-        id: 2,
         title: 'Etheria',
         description: 'Web 3.0 blockchain application. Requires Metamask chrome extension. Click preview to see the demo.',
         image: '/images/projects/Etheria.PNG',
         tag: ['All', 'Web'],
         gitUrl: 'https://github.com/bjan816/Etheria',
         previewUrl: 'https://etheria-borim.netlify.app/'
+    },
+    {
+        id: 2,
+        title: 'ThinkSpatial',
+        description: 'A game created with the Godot engine to test and enhance the user\'s spatial skills. Click preview to see the demo.',
+        image: '/images/projects/ThinkSpatial.png',
+        tag: ['All', 'Game'],
+        gitUrl: 'https://github.com/bjan816/ThinkSpatial.git',
+        previewUrl: 'https://youtu.be/dDRYtwLqyuI'
     },
     {
         id: 3,
