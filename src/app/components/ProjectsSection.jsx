@@ -17,11 +17,11 @@ const projectsData = [
     {
         id: 2,
         title: 'Etheria',
-        description: 'Web 3.0 blockchain application. Requires Metamask chrome extension. Click preview to see the demo.',
+        description: 'Web 3.0 blockchain application that requires the MetaMask browser extension. Click preview to see the demo.',
         image: '/images/projects/Etheria.PNG',
         tag: ['All', 'Web'],
         gitUrl: 'https://github.com/bjan816/Etheria',
-        previewUrl: 'https://etheria-borim.netlify.app/'
+        previewUrl: 'https://youtu.be/dNfB-P-C-ZY'
     },
     {
         id: 3,
