@@ -26,7 +26,7 @@ const projectsData = [
     {
         id: 3,
         title: 'Carbon Easy!',
-        description: 'A single-page responsive website for calculating an individual&apos;s carbon footprint. Preview and GitHub repository are currently unavailable.',
+        description: 'A single-page responsive website for calculating an individual\'s carbon footprint. Preview and GitHub repository are currently unavailable.',
         image: '/images/projects/CarbonEasy.png',
         tag: ['All', 'Web'],
         gitUrl: 'https://github.com/bjan816',
