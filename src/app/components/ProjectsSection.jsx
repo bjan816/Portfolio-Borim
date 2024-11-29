@@ -25,6 +25,16 @@ const projectsData = [
     },
     {
         id: 3,
+        title: 'Hopflix',
+        description: 'A full-stack movie review website built with Java Spring Boot, React, and MongoDB. Users can explore movies and leave reviews. Click \'Preview\' to watch the demo or visit the GitHub repository for the source code.',
+        image: '/images/projects/Hopflix.png',
+        tag: ['All', 'Web'],
+        gitUrl: 'https://github.com/bjan816/Hopflix',
+        previewUrl: 'https://github.com/bjan816/Hopflix'
+    },
+    /*
+    {
+        id: 3,
         title: 'Carbon Easy!',
         description: 'A single-page responsive website for calculating an individual\'s carbon footprint. Preview and GitHub repository are currently unavailable.',
         image: '/images/projects/CarbonEasy.png',
@@ -32,7 +42,6 @@ const projectsData = [
         gitUrl: 'https://github.com/bjan816',
         previewUrl: 'https://github.com/bjan816'
     },
-    /*
     {
         id: 4,
         title: 'Ako Maori Website',
