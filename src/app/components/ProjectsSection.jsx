@@ -26,7 +26,7 @@ const projectsData = [
     {
         id: 3,
         title: 'Hopflix',
-        description: 'A full-stack movie review website built with Java Spring Boot, React, and MongoDB. Users can explore movies and leave reviews. Click \'Preview\' to watch the demo or visit the GitHub repository for the source code.',
+        description: 'A full-stack movie review website built with Java Spring Boot, React, and MongoDB. Users can explore movies and leave reviews. Visit the deployed site by clicking "Preview" or check out the GitHub repository for the source code.',
         image: '/images/projects/Hopflix.png',
         tag: ['All', 'Web'],
         gitUrl: 'https://github.com/bjan816/Hopflix',
