@@ -7,6 +7,15 @@ import { motion, useInView } from "framer-motion"
 const projectsData = [
     {
         id: 1,
+        title: 'Hopflix',
+        description: 'A full-stack movie review website built with Java Spring Boot, React, and MongoDB. Users can explore movies and leave reviews. Visit the deployed site by clicking "Preview" or check out the GitHub repository for the source code.',
+        image: '/images/projects/Hopflix.png',
+        tag: ['All', 'Web'],
+        gitUrl: 'https://github.com/bjan816/Hopflix',
+        previewUrl: 'https://hopflix.vercel.app/'
+    },
+    {
+        id: 2,
         title: 'ThinkSpatial',
         description: 'A 3D game developed with the Godot engine, designed to challenge and enhance spatial intelligence. Click \'Preview\' to watch the demo or visit the GitHub repository for the source code.',
         image: '/images/projects/ThinkSpatial.png',
@@ -15,7 +24,7 @@ const projectsData = [
         previewUrl: 'https://youtu.be/dDRYtwLqyuI'
     },
     {
-        id: 2,
+        id: 3,
         title: 'Etheria',
         description: 'A Web 3.0 blockchain DApp connecting to the Ethereum network, requiring the MetaMask browser extension. Click \'Preview\' to watch the demo or visit the GitHub repository for the source code.',
         image: '/images/projects/Etheria.PNG',
@@ -23,35 +32,6 @@ const projectsData = [
         gitUrl: 'https://github.com/bjan816/Etheria',
         previewUrl: 'https://youtu.be/dNfB-P-C-ZY'
     },
-    {
-        id: 3,
-        title: 'Hopflix',
-        description: 'A full-stack movie review website built with Java Spring Boot, React, and MongoDB. Users can explore movies and leave reviews. Visit the deployed site by clicking "Preview" or check out the GitHub repository for the source code.',
-        image: '/images/projects/Hopflix.png',
-        tag: ['All', 'Web'],
-        gitUrl: 'https://github.com/bjan816/Hopflix',
-        previewUrl: 'https://hopflix.vercel.app/'
-    },
-    /*
-    {
-        id: 3,
-        title: 'Carbon Easy!',
-        description: 'A single-page responsive website for calculating an individual\'s carbon footprint. Preview and GitHub repository are currently unavailable.',
-        image: '/images/projects/CarbonEasy.png',
-        tag: ['All', 'Web'],
-        gitUrl: 'https://github.com/bjan816',
-        previewUrl: 'https://github.com/bjan816'
-    },
-    {
-        id: 4,
-        title: 'Ako Maori Website',
-        description: 'Plain HTML/CSS/JS website. Preview currently unavailable.',
-        image: '/images/projects/AkoMaori.png',
-        tag: ['All', 'Web'],
-        gitUrl: 'https://github.com/bjan816/Etheria',
-        previewUrl: 'https://etheria-borim.netlify.app/'
-    }
-    */
 ]
 
 const ProjectsSection = () => {
