@@ -17,7 +17,7 @@ const projectsData = [
     {
         id: 2,
         title: 'ThinkSpatial',
-        description: 'A 3D game developed with the Godot engine, designed to challenge and enhance spatial intelligence. Click \'Preview\' to watch the demo or visit the GitHub repository for the source code.',
+        description: 'A 3D game developed with the Godot engine and C#, designed to challenge and enhance spatial intelligence. Click \'Preview\' to watch the demo or visit the GitHub repository for the source code.',
         image: '/images/projects/ThinkSpatial.png',
         tag: ['All', 'Game'],
         gitUrl: 'https://github.com/bjan816/ThinkSpatial.git',
