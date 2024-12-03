@@ -7,15 +7,15 @@ import SkillCard from './SkillCard'
 const skillsData = [
     {
         id: 1,
-        description: 'PYTHON',
-        src: '/images/python.png',
-        alt: 'PYTHON logo',
+        description: 'JAVA',
+        src: '/images/java.png',
+        alt: 'JAVA logo',
     },
     {
         id: 2,
-        description: 'C/C++',
-        src: '/images/cpp.png',
-        alt: 'C++ logo',
+        description: 'PYTHON',
+        src: '/images/python.png',
+        alt: 'PYTHON logo',
     },
     {
         id: 3,
@@ -25,9 +25,9 @@ const skillsData = [
     },
     {
         id: 4,
-        description: 'JAVA',
-        src: '/images/java.png',
-        alt: 'JAVA logo',
+        description: 'C/C++',
+        src: '/images/cpp.png',
+        alt: 'C++ logo',
     },
     {
         id: 5,
@@ -38,7 +38,7 @@ const skillsData = [
     },
     {
         id: 6,
-        description: 'NEXT.js',
+        description: 'NEXT',
         src: '/images/nextjs.png',
         alt: 'Next.js logo',
     },
@@ -50,15 +50,21 @@ const skillsData = [
     },
     {
         id: 8,
-        description: 'PostgreSQL',
-        src: '/images/postgresql.png',
-        alt: 'PostgreSQL logo',
+        description: 'MongoDB',
+        src: '/images/mongodb.png',
+        alt: 'MongoDB logo',
     },
     {
         id: 9,
         description: 'SQLITE',
         src: '/images/sqlite.png',
         alt: 'SQLITE logo',
+    },
+    {
+        id: 10,
+        description: 'PostgreSQL',
+        src: '/images/postgresql.png',
+        alt: 'PostgreSQL logo',
     },
 ]
 
