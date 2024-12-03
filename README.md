@@ -25,7 +25,7 @@ This portfolio is actively being developed, which means regular updates and new 
 
 The project is deployed on Vercel.
 
-### 
+### Extra
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
