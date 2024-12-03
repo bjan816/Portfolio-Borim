@@ -12,7 +12,7 @@ const projectsData = [
         image: '/images/projects/Hopflix.png',
         tag: ['All', 'Web'],
         gitUrl: 'https://github.com/bjan816/Hopflix',
-        previewUrl: 'https://youtu.be/6TqB1HCR04k'
+        previewUrl: 'https://youtu.be/LhhHhwbFxL0'
     },
     {
         id: 2,
