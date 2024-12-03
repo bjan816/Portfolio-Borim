@@ -1,4 +1,4 @@
-# Portfolio
+# Borim's Portfolio
 
 ![Portfolio Screenshot](./public/images/projects/Portfolio.PNG)
 
