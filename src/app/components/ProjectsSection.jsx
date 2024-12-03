@@ -8,11 +8,11 @@ const projectsData = [
     {
         id: 1,
         title: 'Hopflix',
-        description: 'A full-stack movie review website built with Java Spring Boot, React, and MongoDB. Users can explore a collection of movies, view trailers, and leave reviews. Visit the deployed site by clicking "Preview" or check out the GitHub repository for the source code.',
+        description: 'A full-stack movie review website built with Java Spring Boot, React, and MongoDB. Users can browse a collection of movies, view trailers, and leave reviews. Click \'Preview\' to watch the demo or visit the GitHub repository for the source code.',
         image: '/images/projects/Hopflix.png',
         tag: ['All', 'Web'],
         gitUrl: 'https://github.com/bjan816/Hopflix',
-        previewUrl: 'https://hopflix.vercel.app/'
+        previewUrl: 'https://youtu.be/6TqB1HCR04k'
     },
     {
         id: 2,
