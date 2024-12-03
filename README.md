@@ -1,6 +1,6 @@
 # Portfolio
 
-![Portfolio Screenshot](./public/images/projects/Portfolio.png)
+![Portfolio Screenshot](./public/images/projects/Portfolio.PNG)
 
 Welcome to my Portfolio, a dynamic showcase built with NextJS and styled using Tailwind CSS. This portfolio is designed to present my projects and skills in a clean, modern interface. Explore the code or visit the live site to see my work in action.
 
