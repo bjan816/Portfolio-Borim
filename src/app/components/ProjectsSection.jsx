@@ -26,7 +26,7 @@ const projectsData = [
     {
         id: 3,
         title: 'Etheria',
-        description: 'A Web 3.0 blockchain DApp connecting to the Ethereum network, requiring the MetaMask browser extension. Click \'Preview\' to watch the demo or visit the GitHub repository for the source code.',
+        description: 'A Web 3.0 blockchain DApp built with React and Solidity. It connects to the Ethereum network and requires the MetaMask browser extension. Click \'Preview\' to watch the demo or visit the GitHub repository for the source code.',
         image: '/images/projects/Etheria.PNG',
         tag: ['All', 'Web'],
         gitUrl: 'https://github.com/bjan816/Etheria',
